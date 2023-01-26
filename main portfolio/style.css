@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* css navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+#logo {
+    margin: 16px 24px;
+    /* border: 2px solid red; */
+}
+
+#logo img {
+    margin: -54px -34px;
+    height: 163px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(184, 180, 180);
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 52px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+#navbar ul li a:hover {
+    color: brown;
+    background-color: white;
+    
+}
+
+
+/* css home */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 212px 39px;
+    height: 200px;
+}
+
+#home::before {
+    content: "";
+    background: url('containerback.jpg');
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.hello {
+    font-size: 75px;
+}
+
+.name {
+    font-size: 55px;
+}
+
+.about {
+    padding: 5px;
+    font-size: 21px;
+}
+
+.btn {
+    font-size: 21px;
+    width: 67vw;
+    height: 10vh;
+    padding: 5px 5px;
+    margin: 18px;
+}
+
+.btn:hover {
+    font-size: 21px;
+    background-color: brown;
+    background-color: white;
+}
+
+#about {
+    background-color: rgb(247, 247, 247);
+}
+
+.aboutme {
+    padding: 65px 20px;
+
+}
+
+.about_main {
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: #111;
+}
+
+.about_sub {
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.about_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.skills__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153, 153, 153, .2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666
+}
+
+#PROJECTS {
+    background-color: white;
+}
+
+.project_conatainer {
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+}
+
+.projects1 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1px;
+}
+
+.project_image {
+    overflow: hidden;
+
+}
+
+.project_image img {
+    margin: 183px 135px;
+    height: 230px;
+}
+
+.Projects_content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Projesct_title {
+
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.project_tittle_info {
+    font-size: 1.3rem;
+    color: #666;
+    max-width: 33rem;
+    line-height: 1.7;
+    margin-bottom: 1rem
+}
+
+.btn_project {
+     padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    background: url('containerback.jpg');
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+
+
+
+.center{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
